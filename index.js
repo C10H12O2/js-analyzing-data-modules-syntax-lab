@@ -14,12 +14,3 @@ function combineUsers(...args) {
 module.exports = {
   ...(typeof combineUsers !== 'undefined' && { combineUsers })
 };
-
-
-console.log(
-  combineUsers(
-    ["alice", "bob"],
-    ["charlie"],
-    ["david", "eve"]
-  )
-);
